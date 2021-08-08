@@ -393,7 +393,7 @@ li {
 }
 
 .landing-hero {
-    background-image: url(imagenes/fondo1.svg);
+    background-image: url(/fondo1.svg);
     height: 600px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -405,7 +405,7 @@ li {
 }
 
 .landing-hero3 {
-    background-image: url(imagenes/fondo3.svg);
+    background-image: url(/fondo3.svg);
     height: 600px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -479,7 +479,7 @@ li {
 }
 
 .landing-top {
-    background-image: url(imagenes/guarda1.svg);
+    background-image: url(/guarda1.svg);
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
