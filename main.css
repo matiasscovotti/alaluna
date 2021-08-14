@@ -303,6 +303,17 @@ p {
     color: #EEB5BD;
 }
 
+.text1b{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;  
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 .text2 {
 font-family: Abel;
 font-style: normal;
@@ -320,7 +331,18 @@ color: #454636;
     line-height: 65px;
     color: #454636;
     text-align: center;
-    }1`
+    }
+
+
+    .text4 {
+        font-family: Abel;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 60px;
+        color: #ffffff;
+        text-align: center;
+        }
 
 
 blockquote {
@@ -477,6 +499,14 @@ li {
     position: relative;
     padding: 82px 0 72px;
 }
+
+.newsletter {
+    background-color: #5CCC95;
+    color: #fff;
+    position: relative;
+    padding: 30px 0 72px;
+}
+
 
 .landing-top {
     background-image: url(/guarda1.svg);
@@ -1089,5 +1119,43 @@ padding-top: 4rem;
 }
 
 
- /* testimonios */
+ /* suscribir */
 
+ input {
+    border: 1px solid rgb(220, 219, 235);
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 10px;
+    color: #000;
+    transition: all .15s ease-in;
+}
+
+input[type=email] {
+    width: 200px;
+}
+
+input[type=submit] {
+    background-color: #EEB5BD;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid transparent;
+    font-family: 'Open Sans';
+}
+
+input[type=submit]::focus {
+    border: 1px solid #fff;
+}
+
+input:focus {
+    border-color: #EEB5BD;
+    box-shadow: 0px 0px 8px 2px rgba(238, 181, 189, 0,5);
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+#subscribe-result p {
+    margin-top: 35px;
+}
