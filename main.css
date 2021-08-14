@@ -1034,11 +1034,27 @@ img {
   overflow: hidden;
 }
 
+.card2 {
+    background-color: white;
+    border-radius: 25px;
+   /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
 .card:hover{
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 transform: scale(1.02);
 cursor: pointer;
 }
+
+
+.peque{
+    width: 80px;
+    height: auto;
+    padding-bottom: 20px;
+    }
 
 
 .card_content1 {
@@ -1158,3 +1174,5 @@ input::placeholder {
 #subscribe-result p {
     margin-top: 35px;
 }
+
+
