@@ -1204,11 +1204,32 @@ input::placeholder {
 @media (max-width: 600px) {
 
     #imagen_home { display: none; }  
-  .facet_sidebar {
-    display: none;
-  }
 
+    .text2 {
+        font-family: Abel;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 43px;
+        color: #454636;
+    }
 
+    .landing-hero {
+        height: 400px;
+    }
+    
+    .text3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .landing-hero3 {
+        margin-top: 8px;
+    }
+
+    .mitad {
+        padding-top: 5px;
+    }
 
 }
 
