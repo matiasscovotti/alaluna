@@ -1242,5 +1242,15 @@ input::placeholder {
         padding-top: 5px;
     }
 
+    .text4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .text1b {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
 }
 
