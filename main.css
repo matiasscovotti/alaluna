@@ -511,7 +511,7 @@ li {
 }
 
 .newsletter {
-    background-color: #5CCC95;
+    background-color: #96C8AD;
     color: #fff;
     position: relative;
     padding: 30px 0 72px;
@@ -639,12 +639,13 @@ footer .contact-subsection {
     display: inline-flex;
     flex-direction: column;
     padding-bottom: 18px;
-    padding-top: 16px;
+    padding-top: 0px;
 }
 footer .contact-subsection:not(:last-child) {
     border-right: 2px solid #fff;
     padding-right: 45px;
     margin-right: 45px;
+    line-height: 50px;
 }
 footer .contact-subsection span {
     font-family: Open Sans;
@@ -656,6 +657,7 @@ footer .contact-subsection span {
 }
 footer .contact-subsection a:not(:last-child) {
     margin-right: 18px;
+    line-height: 50px;
 }
 footer .social-prompt {
     text-align: center;
