@@ -86,6 +86,7 @@ nav.main-nav img {
 
 .bg-pink {
     background-color: #EEB5BD;
+    min-height: 250px;
 }
 
 a {
